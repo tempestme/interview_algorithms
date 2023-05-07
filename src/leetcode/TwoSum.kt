@@ -4,8 +4,6 @@ fun main(){
 
 fun foundSum(target:Int, nums:Array<Int>):IntArray{
     val set = nums.toSet()
-    nums.map {  }
-
     nums.forEachIndexed(){ index: Int, integer: Int ->
         if (set.contains(target-integer)){
             nums.forEachIndexed(){ index2: Int, integer2: Int ->
