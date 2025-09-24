@@ -1,12 +1,5 @@
 package hackerrank
 
-/*
- * Complete the 'countResponseTimeRegressions' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts INTEGER_ARRAY responseTimes as parameter.
- */
-
 fun countResponseTimeRegressions(responseTimes: Array<Int>): Int {
     if (responseTimes.size < 2) {
         return 0
