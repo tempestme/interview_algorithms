@@ -1,4 +1,3 @@
-Interview Algorithms and Code Challenges
 This repository serves as a showcase of my solutions to various interview algorithms and code challenges. All solutions are implemented in Kotlin.
 
 Purpose
