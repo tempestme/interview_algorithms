@@ -57,6 +57,8 @@ fun minimumBribes(q: Array<Int>): Unit {
 }
 
 fun main(args: Array<String>) {
+    val details = mutableListOf<Int>()
+
     val t = readLine()!!.trim().toInt()
 
     for (tItr in 1..t) {
